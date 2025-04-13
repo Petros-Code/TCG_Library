@@ -1,0 +1,55 @@
+Cahier des Charges - TCG Library
+
+
+**1. Introduction**
+    Le présent cahier des charges décrit les spécifications de l'application web TCG Library, une solution permettant aux collectionneurs de cartes à collectionner (Magic, Pokémon, Yu-Gi-Oh, etc.) de trier, organiser et évaluer leurs collections.
+
+**2. Objectifs du Cahier des Charges**
+    Ce document a pour but de :
+    Définir les objectifs et le périmètre du projet.
+    Énumérer les fonctionnalités attendues.
+    Encadrer les choix techniques et les contraintes associées.
+    Faciliter le suivi et la validation des livrables.
+
+**3. Structure du Cahier des Charges**
+    3.1. Contexte et Présentation du Projet
+        Nom du projet : TCG Library
+        Objectif : Développer une application permettant aux collectionneurs de cartes à collectionner de trier leurs collections, connaître les cartes manquantes et estimer la valeur de leurs collections.
+        Public cible : Tous les amateurs de cartes à collectionner (Magic, Pokémon, Yu-Gi-Oh, etc.).
+    3.2. Périmètre du Projet
+        Fonctionnalités principales :
+        Création et gestion d'une collection de cartes.
+        Tri des cartes par édition, type et état.
+        Création de "books" pour organiser les cartes.
+        Attribution d’un état aux cartes (Neuf, Très bon, Bon, Moyen, Mauvais état).
+        Connexion à l'API de Cardmarket pour suivre la valeur des cartes.
+        Notifications journalières sur les changements de valeur de la collection.
+        Contraintes techniques :
+        Respect des règles d’utilisation de l’API de Cardmarket.
+        Un focus important sur le backend pour la gestion des données et l'interaction avec l'API externe.
+        Interface minimaliste et efficace, sans gamification.
+    3.3. Spécifications Fonctionnelles
+        Gestion des collections :
+        Création et édition d'une collection personnalisée.
+        Ajout et suppression de cartes.
+        Classement par édition, type et état.
+        Comptes utilisateurs :
+        Système d'inscription et d'authentification sécurisé.
+        Accès à une collection personnalisée après connexion.
+        Notifications :
+        Envoi d’une notification quotidienne informant des variations de valeur de la collection en euros.
+    3.4. Spécifications Techniques
+        Frontend : Interface utilisateur simple et fluide.
+        Backend : Gestion de la base de données et des interactions avec l'API de Cardmarket.
+        Contraintes : L’application doit se conformer aux règles d'utilisation de l'API de Cardmarket.
+    3.5. Charte Graphique
+        Palette de couleurs sobre et minimaliste.
+        Mode sombre activable pour le confort des utilisateurs.
+    3.6. Planning et Livrables
+        Deadline : Fin novembre 2025.
+        Livrables :
+        Cahier des charges.
+        Maquette.
+        Code source.
+        Fonctionnalités implémentées et mises à jour.
+        Documentation technique et utilisateur.

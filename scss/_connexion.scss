@@ -1,0 +1,46 @@
+// SCSS pour la page de connexion
+.api_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: $secondary-color;
+}
+
+.api_form > div > button {
+    width: 550px;
+    height: 32px;
+    margin-top: 15px;
+    font-family: poppins;
+    font-size: $tertiary-font-size;
+    border-radius: 5px;
+}
+
+.fa-brands fa-google {
+    height: fit-content;
+}
+
+.fa-brands {
+    height: 30px;
+    width: 30px;
+}
+
+form > div > * {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    display: block;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+h1 {
+    font-family: poppins;
+}
+
+h2 {
+    font-family: poppins;
+}
